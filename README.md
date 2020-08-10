@@ -28,7 +28,7 @@ Commit early and often.
 
 ## Testing Instructions
 
-Run $ npm test to begin test cases. I do not know why the tests are failing, but the file generates successfully. 
+Run $ npm test to begin test cases. 
 
 ## Questions?
 
