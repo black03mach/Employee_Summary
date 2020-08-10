@@ -74,11 +74,11 @@ function internorEngineer() {
                             people.push(new Intern(input2.name, input2.id, input2.email, internInfo.university))
                             inquirer
                                 .prompt([{
-                                    type: "input",
+                                    type: "confirm",
                                     message: "Do you have another Employee to add?",
                                     name: "yn"
                                 }]).then((answer) => {
-                                    if (answer.yn == "yes") {
+                                    if (answer.yn === true) {
                                         internorEngineer()
                                     }
                                     else {
