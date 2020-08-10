@@ -16,7 +16,8 @@ function inquirerPrompt() {
             type: "input",
             message: "Please enter the manager name.",
             name: "name",
-        }, {
+        }, 
+        {
             type: "input",
             message: "Please enter the employee ID.",
             name: "id",
@@ -25,7 +26,8 @@ function inquirerPrompt() {
             type: "input",
             message: "Please enter company email address.",
             name: "email"
-        }, {
+        }, 
+        {
             type: "input",
             message: "What is the office number?",
             name: "office"
